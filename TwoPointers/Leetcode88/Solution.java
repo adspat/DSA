@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;;
+
+public class Solution {
 
     // Leetcode 88 merge two sorted arrays
 

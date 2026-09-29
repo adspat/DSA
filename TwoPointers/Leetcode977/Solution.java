@@ -1,4 +1,6 @@
-class Solution {
+
+
+public class Solution {
 
     //Leetcode 977 squares of sorted array 
 

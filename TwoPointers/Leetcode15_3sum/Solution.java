@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+public class Solution {
 
     //  3Sum Soltuion code
     public List<List<Integer>> threeSum(int[] nums) {
