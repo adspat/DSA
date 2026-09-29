@@ -2,6 +2,10 @@ package TwoPointers.TripletWithSmallerSum;
 
 import java.util.*;
 
+
+// Triplet With smaller sum 
+
+
 public class Solution {
     int countTriplets(int sum, int arr[]) {  
         Arrays.sort(arr);
