@@ -46,6 +46,27 @@ class MissingAndRepeating{
         return ans;
     }
 }
+/*
+
+Remove duplicate elements from Sorted array
+
+given ->  arr = {1,1,2,2,3,3,3,4};
+output -> arr = {1,2,3,4};
+
+*/ 
+
+class RemoveDuplicates {
+    ArrayList<Integer> removeDuplicates(int[] arr) {
+        // code here
+        Set<Integer> s = new TreeSet<>();
+        for(int i=0;i<arr.length;i++){
+            s.add(arr[i]);
+        }
+        ArrayList<Integer>ans = new ArrayList<>(s);
+        return  ans ;
+    }
+}
+
 
 public class Solution {
     public static void main(String[] args) {

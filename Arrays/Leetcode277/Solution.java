@@ -21,4 +21,7 @@ public class Solution {
 
         return ans;
     }
+    public static void main(String[] args) {
+        System.out.println("Solution for Leetcode 277");
+    }
 }
